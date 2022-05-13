@@ -1,0 +1,9 @@
+https://arxiv.org/abs/2205.05773
+
+Desarrollo del software de interfaz de usuario para el espectrógrafo astronómico COLORES instalado en el observatorio de la Mayora
+
+Álvaro Montoro Martínez
+
+This thesis project arises from the need to put into operation the spectrograph (COLORES) of the station (BOOTES 2), located in La Mayora and belonging to the network of Burst Observer and Optical Transient Exploring System (BOOTES) telescopes. A robotic telescope such as the one located at BOOTES 2 has, among its many virtues, the ability to perform a multitude of observations with a very low reaction time. This makes it possible to obtain a large amount of data on the positioning and characterization of astronomical bodies. With this tool in operation, it will now be possible to extract a multitude of new parameters from the observations, providing this station with a more complete and versatile instrument with which to obtain more interesting scientific information.
+For this task, a series of scripts will be performed. Specifically two, one for the calibration of the spectrograph and another one in charge of the image processing and the extraction of its spectrum. This will be carried out using Spyder software (Python), in which, in addition, numerous tests will be carried out to verify that the software works perfectly. Once these tests have been carried out, it will be implemented in the telescope's Web page for its use.
+Several libraries will be used for this purpose, including Astropy, which includes a complete package for handling astronomical data in Python, and Matplotlib, which allows the use of graphics generated from data contained in arrays. In addition, several image acquisition techniques will be used, such as: filtering, Gaussian adjustment, and use of regions of interferences. With all this, the data extracted from the telescope will be optimized to achieve the desired results.
